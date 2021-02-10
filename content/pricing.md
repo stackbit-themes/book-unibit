@@ -3,17 +3,19 @@ title: Pricing
 sections:
   - type: hero_section
     title: Pick Your Plan
-    subtitle: Select the best fit for your budget below.
+    subtitle: >-
+      Select the best fit for your budget below
     align: center
     padding_top: large
-    padding_bottom: none
+    padding_bottom: small
   - type: grid_section
     grid_items:
       - title: Student
         subtitle: For college students and educators
         title_align: left
-        content: |
+        content: |-
           ---
+
 
           ### $9 eBook
 
@@ -42,7 +44,7 @@ sections:
           * eMail feedback session
         content_align: left
         actions:
-          - label: Start with Premium
+          - label: Start with Professional
             url: /thank-you
             style: primary
         actions_align: left
@@ -50,7 +52,7 @@ sections:
       - title: Business
         subtitle: For teams and companies
         title_align: left
-        content: |-
+        content: >-
           ---
 
           ### $49 eBook
@@ -75,5 +77,24 @@ sections:
     padding_bottom: medium
     has_border: false
     background_color: none
+seo:
+  title: Pricing
+  description: This is the pricing page
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Pricing
+      keyName: property
+    - name: og:description
+      value: This is the pricing page
+      keyName: property
+    - name: twitter:card
+      value: summary
+    - name: twitter:title
+      value: Pricing
+    - name: twitter:description
+      value: This is the pricing page
 layout: advanced
 ---

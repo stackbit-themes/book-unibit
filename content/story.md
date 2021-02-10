@@ -1,5 +1,31 @@
 ---
-title: Story about the book
+title: Story About the Book
+seo:
+  title: Story About the Book
+  description: This is the about page
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Story About the Book
+      keyName: property
+    - name: og:description
+      value: This is the about page
+      keyName: property
+    - name: og:image
+      value: images/story.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Story About the Book
+    - name: twitter:description
+      value: This is the about page
+    - name: twitter:image
+      value: images/story.jpg
+      relativeUrl: true
 layout: page
 ---
 
@@ -7,7 +33,7 @@ In the past, whenever a young man or woman wanted to be great at something, they
 
 ## Digital Age Mentorship
 
-![](images/story.jpg)
+![](/images/story.jpg)
 
 Fast forward to the 2000s, and you'll find that less people are willing to dedicate their time to help young professionals grow, and fewer novices know to reach out and ask.
 
